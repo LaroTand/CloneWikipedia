@@ -7,6 +7,7 @@
 html{
     font-family: sans-serif;
     font-size: 62.5%;
+    line-height: 1.5;
 }
 
 .header{
@@ -39,4 +40,228 @@ html{
 .header .header-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
+}
+
+.main{
+    width: 100%;
+}
+
+
+.main-links{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.main-links{
+    margin: 0 auto;
+    text-align: center;
+    height: 32.5rem;
+    width: 54.6rem;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+}
+
+.main-links .lang{
+    position: absolute;
+    width: 15.6rem;
+}
+
+.main-links .lang a{
+    text-decoration: none;
+}
+
+.main-links .lang strong{
+    color: #36c;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.main-links .lang p{
+    color: #54595d;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.lang1{
+    top: 0;
+    right: 60%;
+}
+
+.lang2{
+    top: 0;
+    left: 60%;
+}
+
+.lang3{
+    top: 20%;
+    right: 70%;
+}
+
+.lang4{
+    top: 20%;
+    left: 70%;
+}
+
+.lang5{
+    top: 40%;
+    right: 72%;
+}
+
+.lang6{
+    top: 40%;
+    left: 72%;
+}
+
+.lang7{
+    top: 60%;
+    right: 70%;
+}
+
+.lang8{
+    top: 60%;
+    left: 70%;
+}
+
+.lang9{
+    top: 80%;
+    right: 60%;
+}
+
+.lang10{
+    top: 80%;
+    left: 60%;
+}
+
+.main-input{
+    display: flex;
+    justify-content: center;
+} 
+
+.main-input-container{
+    width: 400px;
+    height: 45px;
+    border: 1px solid #a2a9b1;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-input-container input{
+    border: none;
+    /* color: #36c; */
+    position: relative;
+    font-size: 1.6rem;
+    left: 0.15em; 
+    width: 323px;
+    height: 25px;
+}
+
+/* .main-input-container input:focus .main-input-container{
+    background-color: black;
+    border: #3366CC 2px solid;
+} */
+
+.main-input-container a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #54595d;
+}
+
+.flecha-icon{
+    margin-left: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    background-position: 0 -520px;
+    height: 8px;
+    width: 12px
+}
+
+.main-input-container a:hover{
+    background-color: #F8F9FA;
+}
+
+.main-input button{
+    cursor: pointer;
+    background-color: #36c;
+    width: 55px;
+    border: none;
+}
+
+.search-icon{
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    background-position: 0 -669px;
+    width: 22px;
+    height: 22px;
+}
+
+.main-input button:hover{
+    background-color: #447FF5;
+}
+
+.main-translate{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-translate button{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 1px #A2A9B1 solid;
+    background-color: #F8F9FA;
+    padding: 7px 12px; 
+    margin: 0 18px;
+}
+
+.main-translate button:hover{
+    background-color: #fff;
+}
+
+.main-translate button:focus{
+    border: #36c 2px solid;
+}
+
+.main-translate button p{
+    color: #36c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0 0.64rem;
+}
+
+.translate-icon{
+    display: inline-block;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-position: 0 -691px;
+    width: 25px;
+    height: 18px;
+}
+
+.translate-flecha-icon{
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    display: inline-block;
+    background-position: 0 -526px;
+    height: 8px;
+    width: 12px;
+}
+
+.main-translate hr{
+    width: 80px;
+    border: none;
+    border-top: 1px solid #C8CCD1;
 }
