@@ -10,6 +10,10 @@ html{
     line-height: 1.5;
 }
 
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .header{
     width: 100%;
     height: 137px;
@@ -60,7 +64,6 @@ html{
     height: 32.5rem;
     width: 54.6rem;
     position: relative;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.4rem;
 }
 
@@ -166,7 +169,6 @@ html{
 } */
 
 .main-input-container a{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 5px 8px;
     display: flex;
     align-items: center;
@@ -265,3 +267,278 @@ html{
     border: none;
     border-top: 1px solid #C8CCD1;
 }
+
+.division{
+    margin: 3.0rem 1.3rem;
+    border: none;
+    border-top: 1px solid #C8CCD1;
+}
+
+.footer{
+    width: 100%;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.footer-menu-item{
+    text-decoration: none;
+    width: 30%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    /* grid-template-rows: 1fr; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
+.footer-menu-item .item-title{
+    font-size: 1.4rem;
+    color: #4D79D2;
+    display: inline-block;
+    /* grid-row: 1; */
+    grid-column: 2;
+}
+
+.footer-menu-item .item-text{
+    font-size: 1.3rem;
+    color: #54595D;
+    /* grid-row: 1; */
+    grid-column: 2;
+    margin-top: -30px;
+    
+}
+
+
+.item1-img{
+    width: 47px;
+    height: 47px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item2-img{
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -446px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item3-img{
+    width: 37px;
+    height: 37px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -482px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item4-img{
+    width: 37px;
+    height: 37px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -126px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item5-img{
+    width: 47px;
+    height: 26px;
+    margin-right: 5px;
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png");
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item6-img{
+    width: 49px;
+    height: 49px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -163px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item7-img{
+    width: 43px;
+    height: 37px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -409px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item8-img{
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -286px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item9-img{
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -47px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item10-img{
+    width: 39px;
+    height: 39px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -328px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item11-img{
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -367px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item12-img{
+    width: 37px;
+    height: 37px;
+    margin-right: 5px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    background-position: 0 -89px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-datos{
+    color: #54595d;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-datos-info{
+    width: 310px;
+    height: 78px;
+    margin-bottom: 70px;
+}
+
+.footer-datos-info p{
+    margin-left: 50px;
+}
+
+.info-img{
+    width: 42px;
+    height: 42px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 0 -212px;
+}
+
+.footer-datos-add{
+    width: 350px;
+    height: 200px;
+    background-color: #F8F9FA;
+}
+
+.add-img{
+    width: 42px;
+    height: 42px;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 0 -710px;
+    margin: 8px 0 0 8px;
+}
+
+.footer-datos-add-text{
+    margin-left: 58px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 28px;
+}
+
+.footer-datos-add-text-title{
+    font-weight: 700;
+}
+
+.android-logo{
+    width: 124px;
+    height: 38px;
+    background-position: 0 -535px;
+}
+
+.ios-logo{
+    background-position: 0 -573px;
+    width: 110px;
+    height: 38px;
+}
+
+.android-logo, .ios-logo{
+    background-repeat: no-repeat;
+    background-image: url("https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png");
+    display: inline-block;
+}
+
+.license{
+    font-size: 1.3rem;
+    color: #54595d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.license a{
+    color: #36c;
+    text-decoration: none;
+}
+
+.license a:hover{
+    text-decoration: underline;
+}
+
